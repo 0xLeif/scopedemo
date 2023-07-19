@@ -4,4 +4,4 @@ struct Type {}
 struct Foo {}
 extension scopedemo.Foo {} // OK
 extension Type {} // OK
-extension scopedemo.Type {} // error: cannot find type 'scopedemo' in scope
+extension scopedemo.`Type` {} // OK
